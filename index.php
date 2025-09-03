@@ -693,7 +693,7 @@ $galeri = [
                   width="100"
                   height="100"
                   loading="lazy"
-                  src="<?= $domain . '/src/img/galeri/' . $item ?>"
+                  src="<?= $domain . 'src/img/galeri/' . $item ?>"
                   class="<?php
                           if ($key == 0 || $key == 3) {
                             echo 'sm:!col-span-8';
