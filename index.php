@@ -5,8 +5,8 @@ $domain = 'https://jegegroad.web.id/';
 $brand = 'Jegeg Road';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.png';
-$title = "Travel Surabaya Terbaik Bersama " . $brand;
-$desc = "Jasa Travel Surabaya dengan harga murah dan siap antar jemput 24 jam | " . $brand;
+$title = "Travel Bali Terbaik Bersama " . $brand;
+$desc = "Jasa Travel Bali dengan harga murah dan siap antar jemput 24 jam | " . $brand;
 $telp = '0821-4622-0831';
 // $telp2 = '0857-9190-4615';
 $alamat = 'MPP4+P22 Kedurus, Surabaya, Jawa Timur';
@@ -51,51 +51,51 @@ $menu = [
 
 
 $rute = [
-  "Travel Surabaya Denpasar",
-  "Travel Surabaya Bali",
-  "Travel Surabaya Banyuwangi",
-  "Travel Surabaya Kediri",
-  "Travel Surabaya Tulungagung",
-  "Travel Surabaya Solo",
-  "Travel Surabaya Jogja",
-  "Travel Surabaya Magelang",
-  "Travel Surabaya Semarang",
-  "Travel Surabaya Jakarta",
-  "Travel Surabaya Pekalongan",
-  "Travel Surabaya Cirebon",
-  "Travel Surabaya Kuningan",
-  "Travel Surabaya Sumedang",
-  "Travel Surabaya Singaraja",
-  "Travel Surabaya Bandung",
-  "Travel Surabaya Madiun",
-  "Travel Surabaya Ponorogo",
-  "Travel Surabaya Jember",
-  "Travel Surabaya Cilacap",
-  "Travel Surabaya Banjarnegara",
 
-  // pp
+  "Travel Surabaya Denpasar",
+  "Travel Bali Banyuwangi",
+  "Travel Bali Kediri",
+  "Travel Bali Tulungagung",
+  "Travel Bali Solo",
+  "Travel Bali Jogja",
+  "Travel Bali Magelang",
+  "Travel Bali Semarang",
+  "Travel Bali Jakarta",
+  "Travel Bali Pekalongan",
+  "Travel Bali Cirebon",
+  "Travel Bali Kuningan",
+  "Travel Bali Sumedang",
+  "Travel Denpasar Singaraja",
+  "Travel Bali Bandung",
+  "Travel Bali Madiun",
+  "Travel Bali Ponorogo",
+  "Travel Bali Jember",
+  "Travel Bali Cilacap",
+  "Travel Bali Banjarnegara",
+
+  // 
 
   "Travel Denpasar Surabaya",
-  "Travel Bali Surabaya",
-  "Travel Banyuwangi Surabaya",
-  "Travel Kediri Surabaya",
-  "Travel Tulungagung Surabaya",
-  "Travel Solo Surabaya",
-  "Travel Jogja Surabaya",
-  "Travel Magelang Surabaya",
-  "Travel Semarang Surabaya",
-  "Travel Jakarta Surabaya",
-  "Travel Pekalongan Surabaya",
-  "Travel Cirebon Surabaya",
-  "Travel Kuningan Surabaya",
-  "Travel Sumedang Surabaya",
-  "Travel Singaraja Surabaya",
-  "Travel Bandung Surabaya",
-  "Travel Madiun Surabaya",
-  "Travel Ponorogo Surabaya",
-  "Travel Jember Surabaya",
-  "Travel Cilacap Surabaya",
-  "Travel Banjarnegara Surabaya",
+  "Travel Banyuwangi Bali",
+  "Travel Kediri Bali",
+  "Travel Tulungagung Bali",
+  "Travel Solo Bali",
+  "Travel Jogja Bali",
+  "Travel Magelang Bali",
+  "Travel Semarang Bali",
+  "Travel Jakarta Bali",
+  "Travel Pekalongan Bali",
+  "Travel Cirebon Bali",
+  "Travel Kuningan Bali",
+  "Travel Sumedang Bali",
+  "Travel Singaraja Denpasar",
+  "Travel Bandung Bali",
+  "Travel Madiun Bali",
+  "Travel Ponorogo Bali",
+  "Travel Jember Bali",
+  "Travel Cilacap Bali",
+  "Travel Banjarnegara Bali",
+
 
 ];
 
