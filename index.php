@@ -1,18 +1,17 @@
 <?php
 
-// $domain = 'http://localhost/travel/jegegroad.web.id/';
-$domain = 'https://jegegroad.web.id/';
-$brand = 'Jegeg Road';
+// $domain = 'http://localhost/ttjayamandiri.web.id/';
+$domain = 'https://ttjayamandiri.web.id/';
+$brand = 'PT Trans And Tour Jaya Mandiri';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.png';
-$title = "Travel Bali Terbaik Bersama " . $brand;
-$desc = "Jasa Travel Bali dengan harga murah dan siap antar jemput 24 jam | " . $brand;
-$telp = '0821-4622-0831';
+$title = $brand . " | Jasa Travel Terbaik";
+$desc = $brand . " - Mitra Perjalanan Terpercaya, Solusi Transportasi Terintegrasi.";
+$telp = '0857-3599-7104';
 // $telp2 = '0857-9190-4615';
-$alamat = 'MPP4+P22 Kedurus, Surabaya, Jawa Timur';
+$alamat = 'Jl. MT Haryono No.23 A, Dusun II, Madegondo, Kec. Grogol, Kabupaten Sukoharjo, Jawa Tengah';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15819.178788643627!2d110.79914262008138!3d-7.597309410536464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a160fba3724e1%3A0x82cbc8ecf97d4e7e!2sJl.%20MT%20Haryono%20No.23%20A%2C%20Dusun%20II%2C%20Madegondo%2C%20Kec.%20Grogol%2C%20Kabupaten%20Sukoharjo%2C%20Jawa%20Tengah%2057552!5e0!3m2!1sid!2sid!4v1760433136229!5m2!1sid!2sid';
 
-
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3957.3614215881917!2d112.7024376750002!3d-7.31323339269474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTgnNDcuNiJTIDExMsKwNDInMTguMSJF!5e0!3m2!1sid!2sid!4v1756882095729!5m2!1sid!2sid';
 
 function res_telp($telp)
 {
@@ -51,82 +50,59 @@ $menu = [
 
 
 $rute = [
-
-  "Travel Surabaya Denpasar",
-  "Travel Bali Banyuwangi",
-  "Travel Bali Kediri",
-  "Travel Bali Tulungagung",
-  "Travel Bali Solo",
-  "Travel Bali Jogja",
-  "Travel Bali Magelang",
-  "Travel Bali Semarang",
-  "Travel Bali Jakarta",
-  "Travel Bali Pekalongan",
-  "Travel Bali Cirebon",
-  "Travel Bali Kuningan",
-  "Travel Bali Sumedang",
-  "Travel Denpasar Singaraja",
-  "Travel Bali Bandung",
-  "Travel Bali Madiun",
-  "Travel Bali Ponorogo",
-  "Travel Bali Jember",
-  "Travel Bali Cilacap",
-  "Travel Bali Banjarnegara",
-
-  // 
-
-  "Travel Denpasar Surabaya",
-  "Travel Banyuwangi Bali",
-  "Travel Kediri Bali",
-  "Travel Tulungagung Bali",
-  "Travel Solo Bali",
-  "Travel Jogja Bali",
-  "Travel Magelang Bali",
-  "Travel Semarang Bali",
-  "Travel Jakarta Bali",
-  "Travel Pekalongan Bali",
-  "Travel Cirebon Bali",
-  "Travel Kuningan Bali",
-  "Travel Sumedang Bali",
-  "Travel Singaraja Denpasar",
-  "Travel Bandung Bali",
-  "Travel Madiun Bali",
-  "Travel Ponorogo Bali",
-  "Travel Jember Bali",
-  "Travel Cilacap Bali",
-  "Travel Banjarnegara Bali",
-
-
+  "Travel Jember Surabaya",
+  "Travel Jember Malang",
+  "Travel Surabaya Solo",
+  "Travel Surabaya Jogja",
+  // pp
+  "Travel Surabaya Jember",
+  "Travel Malang Jember",
+  "Travel Solo Surabaya",
+  "Travel Jogja Surabaya",
 ];
 
 $kota = [
+  [
+    'Jember',
+    'jember.jpg',
+  ],
   [
     'Surabaya',
     'surabaya.jpg',
   ],
   [
-    'Banyuwangi',
-    'banyuwangi.jpg',
+    'Malang',
+    'malang.jpg',
   ],
   [
-    'Semarang',
-    'semarang.jpg',
-  ],
-  [
-    'Bali',
-    'bali.jpg',
+    'Jogja',
+    'jogja.jpg',
   ],
 ];
 
 $galeri = [
-  '1.jpg',
-  '2.jpg',
-  '3.jpg',
-  '4.jpg',
-  '5.jpg',
-  '6.jpg',
+  [
+    ['src/img/galeri/4.jpg', 'aspect-[10/12]'],
+    ['src/img/galeri/5.jpg', 'aspect-[10/14]'],
+    ['src/img/galeri/6.jpg', 'aspect-[10/10]'],
+  ],
+  [
+    ['src/img/galeri/1.jpg', 'aspect-[10/10]'],
+    ['src/img/galeri/3.jpg', 'aspect-[10/13]'],
+    ['src/img/galeri/2.jpg', 'aspect-[10/13]'],
+  ],
+  [
+    ['src/img/galeri/7.jpg', 'aspect-[10/14]'],
+    ['src/img/galeri/8.jpg', 'aspect-[10/11]'],
+    ['src/img/galeri/9.jpg', 'aspect-[10/11]'],
+  ],
+  [
+    ['src/img/galeri/11.jpg', 'aspect-[10/8.75]'],
+    ['src/img/galeri/10.jpg', 'aspect-[10/8.75]'],
+    ['src/img/galeri/13.jpg', 'aspect-[10/8.75]'],
+    ['src/img/galeri/12.jpg', 'aspect-[10/8.75]'],
+  ],
 ];
-
 ?>
 
 <!DOCTYPE html>
@@ -507,25 +483,67 @@ $galeri = [
 
     <!-- Tentang Kami -->
     <section id="tentang-kami" class="bg-gradient-to-tr from-primary to-primary-hover py-20">
+
+      <div class="container !mb-20">
+        <div class="grid grid-cols-1 md:!grid-cols-2 gap-8">
+          <div class="col-span-full md:!col-span-1  ">
+            <div class="inner-container">
+              <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Tentang Kami</h2>
+              <p class="desc text-justify !text-slate-300 !mb-5">
+                <strong><?= $desc ?></strong> <?= $brand ?> adalah perusahaan yang bergerak di bidang penyediaan layanan perjalanan dan transportasi yang terintegrasi. kami hadir sebagai solusi terpercaya untuk berbagai kebutuhan perjalanan pribadi maupun bisnis Anda. Dengan komitmen untuk memberikan pelayanan terbaik, keamanan transaksi, dan kemudahan akses ke berbagai pilihan transportasi, <?= $brand ?> siap menjadi mitra setia dalam setiap perjalanan Anda.
+              </p>
+              <ul class="!list-item !list-disc text-slate-300 ml-5">
+                <li>Pemesanan Tiket Pesawat</li>
+                <li>Pemesanan Tiket Kapal Laut</li>
+                <li>Pemesanan Tiket Bus AKAP</li>
+                <li>Pemesanan Tiket Kereta Api</li>
+                <li>Jasa Ekspedisi</li>
+                <li>Jasa Travel Reguler</li>
+                <li>Jasa Carter Drop/PP</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-span-full md:!col-span-1  ">
+            <div class="w-full md:max-w-[400px] ml-auto">
+              <img loading="lazy" src="<?= $domain . $logo ?>" class="w-full rounded-lg" alt="logo <?= $title ?>">
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="container">
         <div class="grid grid-cols-1 md:!grid-cols-2 gap-8">
           <div class="col-span-full md:!col-span-1  ">
             <div class="w-full md:max-w-[400px]">
-              <img loading="lazy" src="<?= $domain . $logo ?>" class="w-full rounded-lg" alt="tentang <?= $title ?>">
+              <img loading="lazy" src="<?= $domain ?>src/img/tentang-kami.jpg" class="w-full rounded-lg" alt="tentang <?= $title ?>">
             </div>
           </div>
           <div class="col-span-full md:!col-span-1  ">
-            <div class="text inner-container">
-              <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Tentang Kami</h2>
-              <p class="desc !text-slate-300 !mb-5">
-                <strong><?= $brand ?></strong> akan membantu anda melakukan perjalanan <a href="https://jasatravel.web.id" class="underline" target="_blank">travel</a> ke berbagai daerah, tentunya dengan harga murah dan terjangkau. Pelayanan yang diberikan sangat memuaskan. Selain travel reguler, kami juga menawarkan berbagai jasa sebagai berikut:
+            <div class="inner-container">
+              <h3 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Visi Kami</h3>
+              <p class="desc text-justify !text-slate-300 !mb-5">
+                Menjadi perusahaan penyedia layanan perjalanan dan transportasi terdepan di Indonesia, yang dikenal atas keandalan, inovasi, dan komitmen terhadap kepuasan pelanggan.
               </p>
+
+              <h3 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Misi Kami</h3>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
-                <li>Carter Regular</li>
-                <li>Carter Drop</li>
-                <li>Sewa Mobil + Driver</li>
-                <li>Kirim Paket</li>
-                <li>Wisata</li>
+                <li>Menyediakan platform pemesanan tiket yang aman, mudah, dan terpercaya untuk berbagai moda transportasi.
+                </li>
+                <li>
+                  Menawarkan pilihan tiket pesawat, kapal laut, bus AKAP, dan kereta api dari berbagai operator terkemuka.
+                </li>
+                <li>
+                  Menyediakan layanan jasa ekspedisi yang efisien dan aman untuk pengiriman barang ke seluruh Indonesia.
+                </li>
+                <li>
+                  Mengutamakan pelayanan yang ramah, profesional, dan responsif untuk memenuhi kebutuhan pelanggan.
+                </li>
+                <li>
+                  Membangun hubungan jangka panjang yang kuat dengan pelanggan dan mitra.
+                </li>
+                <li>
+                  Terus berinovasi dalam layanan dan teknologi untuk memberikan pengalaman perjalanan yang lebih baik.
+                </li>
               </ul>
             </div>
             <!-- <div class="grid grid-cols-2">
@@ -685,28 +703,26 @@ $galeri = [
               yang merefleksikan perjalanan kami.
             </p>
           </div>
-          <div
-            class="grid grid-cols-12 sm:gap-x-6 gap-y-8 [&>*]:overflow-hidden [&>img]:cursor-pointer [&>img]:w-full [&>img]:object-cover [&>img]:rounded-xl [&>img]:shadow-lg [&>img]:h-72 [&>img]:transition-all [&>img]:duration-700 [&>img]:brightness-50 hover:[&>img]:brightness-90 [&>img]:col-span-full">
-            <?php if (count($galeri) > 0) : ?>
-              <?php foreach ($galeri as $key => $item) : ?>
-                <img
-                  width="100"
-                  height="100"
-                  loading="lazy"
-                  src="<?= $domain . 'src/img/galeri/' . $item ?>"
-                  class="<?php
-                          if ($key == 0 || $key == 3) {
-                            echo 'sm:!col-span-8';
-                          } elseif ($key == 1 || $key == 2) {
-                            echo 'sm:!col-span-4';
-                          } elseif ($key == 4 || $key == 5) {
-                            echo 'sm:!col-span-6';
-                          }
-                          ?> [backdrop-filter:drop-shadow(2px_4px_6px_black)]"
-                  alt="galeri <?= $key + 1 ?>" />
-              <?php endforeach; ?>
-            <?php endif; ?>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-6 lg:gap-7 [&_img]:rounded-md [&_img]:w-full [&_img]:object-cover [&_img]:object-top [&_img]:shadow-lg [&_img]:border-b-8 [&_img]:border-primary [&_img]:brightness-75 hover:[&_img]:brightness-90">
+            <?php $index = 1; ?>
+            <?php foreach ($galeri as $i => $group): ?>
+              <div class="grid gap-5 md:gap-6 lg:gap-7 md:last:grid-cols-4 md:last:col-span-full lg:last:grid-cols-1 lg:last:col-span-1">
+                <?php foreach ($group as $item): ?>
+                  <a href="<?= $domain . $item[0] ?>" target="_blank" title="Galeri <?= $index ?>">
+                    <img
+                      src="<?= $domain . $item[0] ?>"
+                      loading="lazy"
+                      class="<?= $item[1] ?>"
+                      title="Galeri <?= $index ?>"
+                      alt="Galeri ke-<?= $index++ ?>"
+                      width="400"
+                      height="400">
+                  </a>
+                <?php endforeach; ?>
+              </div>
+            <?php endforeach; ?>
           </div>
+
         </div>
       </div>
     </section>
@@ -960,61 +976,104 @@ $galeri = [
               Hubungi kami sekarang juga, kami siap bantu 24 jam.
             </p>
           </div>
-          <div class="grid grid-cols-12 text-center">
+          <div class="grid grid-cols-12 text-center 
+          [&>div]:p-5 [&>div]:py-8 [&>div]:col-span-full [&>div]:sm:col-span-4 [&>div]:border-primary [&>div]:flex [&>div]:flex-col [&>div]:justify-start [&>div]:items-center [&>div]:gap-y-5 [&>div>p]:text-slate-600 [&>div>svg]:size-10 [&>div>svg>path]:fill-primary">
+            <!-- Alamat -->
             <div
-              class="p-5 py-8 col-span-full sm:col-span-4 border-b-2 sm:border-b-0 sm:border-r-2 border-primary flex flex-col justify-start items-center gap-y-5">
+              class="border-b-2 sm:border-b-0 sm:border-r-2 ">
               <svg
                 aria-hidden="true"
                 role="img"
                 height="1em"
                 width="1em"
                 viewBox="0 0 384 512"
-                xmlns="http://www.w3.org/2000/svg"
-                class="size-10">
+                xmlns="http://www.w3.org/2000/svg">
                 <path
-                  class="fill-primary"
                   d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
               </svg>
               <h3>Alamat</h3>
-              <p class="text-slate-600">
+              <p>
                 <?= $alamat ?>
               </p>
             </div>
 
+            <!-- Telepon -->
             <div
-              class="p-5 py-8 col-span-full sm:col-span-4 border-t-2 border-b-2 sm:border-t-0 sm:border-b-0 sm:border-l-2 sm:border-r-2 border-primary flex flex-col justify-start items-center gap-y-5">
+              class="border-t-2 border-b-2 sm:border-t-0 sm:border-b-0 sm:border-l-2 sm:border-r-2">
               <svg
                 viewBox="0 0 612 612"
-                xmlns="http://www.w3.org/2000/svg"
-                class="size-10">
+                xmlns="http://www.w3.org/2000/svg">
                 <path
-                  class="fill-primary"
                   d="M586.923 256.013c-7.959-8.24-16.655-13.074-24.53-15.916 10.798-62.807 8.812-97.901-246.643-178.322C55.771-20.07 26.688 13.85 5.274 81.869L1.622 93.471c-5.794 18.406 4.43 38.025 22.836 43.82l83.405 26.257c18.407 5.794 38.025-4.43 43.82-22.836l3.652-11.602c16.587-52.69 97.773-28.905 143.76-14.428 45.986 14.477 126.155 41.49 109.568 94.18l-3.653 11.601c-5.794 18.406 4.43 38.025 22.836 43.82l83.405 26.257c18.406 5.795 38.025-4.429 43.82-22.835l2.369-8.038c4.933 2.036 10.229 5.149 15.123 10.215 17.553 18.182 23.378 53.308 16.842 101.589-11.335 83.657-44.21 113.537-79.221 123.481v-14.553c0-14.775-3.693-29.4-11.181-42.179-34.94-59.797-84.556-112.856-147.598-159.626v-35.34c0-2.745-2.246-4.992-4.991-4.992h-51.862a4.975 4.975 0 0 0-4.992 4.992v35.139h-59.199v-35.139a5.007 5.007 0 0 0-4.992-4.992H173.46a5.007 5.007 0 0 0-4.992 4.992v35.139C105.326 325.264 55.661 378.322 20.67 438.22c-7.487 12.778-11.18 27.403-11.18 42.177v32.894c0 46.87 37.985 84.855 84.854 84.855h330.984c46.136 0 83.581-36.824 84.745-82.679 56.115-13.143 87.95-58.928 99.111-141.316 7.497-55.335.005-95.082-22.261-118.138zM346.544 481.271l-33.304-11.858c3.533-7.12 5.57-15.115 5.57-23.606 0-29.35-23.809-53.159-53.208-53.159-29.35 0-53.209 23.81-53.209 53.159 0 29.4 23.859 53.21 53.209 53.21a52.961 52.961 0 0 0 29.386-8.859l18.266 30.026c-13.76 8.835-30.087 14.022-47.652 14.022-48.817 0-88.349-39.582-88.349-88.398 0-48.767 39.533-88.349 88.349-88.349s88.399 39.583 88.399 88.349c0 12.621-2.69 24.6-7.457 35.463z"></path>
               </svg>
               <h3>Telpon</h3>
-              <p class="text-slate-600"><?= $telp ?></p>
-              <?php echo isset($telp2) ? '<p class="text-slate-600">' . $telp2 . '</p>' : '' ?>
+              <p><?= $telp ?></p>
+              <?php echo isset($telp2) ? '<p>' . $telp2 . '</p>' : '' ?>
             </div>
 
+            <!-- Whatsapp -->
             <div
-              class="p-5 py-8 col-span-full sm:col-span-4 border-t-2 sm:border-t-0 sm:border-l-2 border-primary flex flex-col justify-start items-center gap-y-5">
+              class="border-t-2 sm:border-t-0 sm:border-l-2">
               <svg
                 aria-hidden="true"
                 role="img"
                 height="1em"
                 width="1em"
                 viewBox="0 0 448 512"
-                xmlns="http://www.w3.org/2000/svg"
-                class="size-10">
+                xmlns="http://www.w3.org/2000/svg">
                 <path
-                  class="fill-primary"
                   d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path>
               </svg>
               <h3>Whatsapp</h3>
-              <p class="text-slate-600"><?= $telp ?></p>
-              <?php echo isset($telp2) ? '<p class="text-slate-600">' . $telp2 . '</p>' : '' ?>
+              <p><?= $telp ?></p>
+              <?php echo isset($telp2) ? '<p>' . $telp2 . '</p>' : '' ?>
 
             </div>
+
+            <!-- Youtube -->
+            <div
+              class="border-t-4 sm:border-b-0 sm:border-r-2 ">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                height="1em"
+                width="1em"
+                viewBox="0 0 16 16">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+              </svg>
+              <h3>Youtube</h3>
+              <p>
+                @PTTransandtour82
+              </p>
+            </div>
+
+            <!-- Tiktok -->
+            <div
+              class="border-t-4 sm:border-b-0 sm:border-l-2 sm:border-r-2">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                height="1em"
+                width="1em"
+                viewBox="0 0 16 16">
+                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+              </svg>
+              <h3>Tiktok</h3>
+              <p>@agentiketmadegondosoba</p>
+            </div>
+
+            <!-- Facebook -->
+            <div
+              class="border-t-4 sm:border-l-2">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                height="1em"
+                width="1em"
+                viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+              </svg>
+              <h3>Facebook</h3>
+              <p>@beny.jember.9</p>
+            </div>
+
           </div>
         </div>
         <?php if ($iframe) :  ?>
