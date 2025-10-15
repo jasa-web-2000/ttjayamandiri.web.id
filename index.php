@@ -58,12 +58,12 @@ $rute = [
   "Travel Solo Jakarta",
   "Travel Denpasar Jakarta",
   // pp
-  "Travel Surabaya Jember",
-  "Travel Malang Jember",
-  "Travel Solo Surabaya",
-  "Travel Jogja Surabaya",
-  "Travel Jakarta Solo",
-  "Travel Jakarta Denpasar",
+  // "Travel Surabaya Jember",
+  // "Travel Malang Jember",
+  // "Travel Solo Surabaya",
+  // "Travel Jogja Surabaya",
+  // "Travel Jakarta Solo",
+  // "Travel Jakarta Denpasar",
 ];
 
 $kota = [
