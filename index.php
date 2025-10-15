@@ -5,7 +5,7 @@ $domain = 'https://ttjayamandiri.web.id/';
 $brand = 'PT Trans And Tour Jaya Mandiri';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.png';
-$title = $brand . " | Jasa Travel Terbaik";
+$title = $brand . " | Transportasi dan Tiketing / Jasa Travel dan Ticketing Terbaik Jawa Kalimantan";
 $desc = $brand . " - Mitra Perjalanan Terpercaya, Solusi Transportasi Terintegrasi.";
 $telp = '0857-3599-7104';
 $telp2 = '0851-2973-3779';
@@ -514,7 +514,7 @@ $galeri = [
           </div>
           <div class="col-span-full md:!col-span-1  ">
             <div class="w-full md:max-w-[400px] ml-auto">
-              <img loading="lazy" src="<?= $domain . $logo ?>" class="w-full rounded-lg" alt="logo <?= $title ?>">
+              <img loading="lazy" src="<?= $domain ?>src/img/pt.jpg" class="w-full rounded-lg" alt="logo <?= $title ?>">
             </div>
           </div>
         </div>
@@ -1005,7 +1005,7 @@ $galeri = [
                 Pusat: <?= $alamat ?>
               </p>
               <p>Majenang: MPQQ+GWQ Pahonjean, Kabupaten Cilacap, Jawa Tengah</p>
-              <p>Pangkabalabun: Kecamatan Arut Selatan</p>
+              <p>Pangkabalabun: Jalan Sahperi Arsyad, RT 009, Kelurahan Mendawai Seberang, Kecamatan Arut Selatan, Kabupaten Kotawaringin Barat, Kalimantan Tengah.</p>
             </div>
 
             <!-- Telepon -->
