@@ -1070,6 +1070,18 @@ video {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
+.bg-\[radial-gradient\(rgb\(15_23_42_\/_0\.2\)\2c rgb\(51_65_85_\/_0\.7\)\)\] {
+  background-image: radial-gradient(rgb(15 23 42 / 0.2),rgb(51 65 85 / 0.7));
+}
+
+.bg-\[radial-gradient\(rgb\(15_23_42_\/_0\.8\)\2c rgb\(51_65_85_\/_0\.7\)\)\] {
+  background-image: radial-gradient(rgb(15 23 42 / 0.8),rgb(51 65 85 / 0.7));
+}
+
+.bg-\[radial-gradient\(rgb\(15_23_42_\/_0\.8\)\2c rgb\(51_65_85_\/_0\.9\)\)\] {
+  background-image: radial-gradient(rgb(15 23 42 / 0.8),rgb(51 65 85 / 0.9));
+}
+
 .from-primary {
   --tw-gradient-from: #615fff var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(97 95 255 / 0) var(--tw-gradient-to-position);
@@ -1080,8 +1092,16 @@ video {
   --tw-gradient-from-position: 0%;
 }
 
+.from-10\% {
+  --tw-gradient-from-position: 10%;
+}
+
 .via-90\% {
   --tw-gradient-via-position: 90%;
+}
+
+.via-50\% {
+  --tw-gradient-via-position: 50%;
 }
 
 .to-primary-hover {
@@ -1096,12 +1116,28 @@ video {
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-\[size\:200px\] {
+  background-size: 200px;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.bg-\[200px\] {
+  background-position: 200px;
+}
+
+.bg-repeat {
+  background-repeat: repeat;
 }
 
 .fill-slate-200 {
@@ -1279,16 +1315,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-slate-600 {
-  --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity));
-}
-
-.text-slate-400 {
-  --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .underline {
